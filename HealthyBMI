@@ -107,7 +107,7 @@ button {
     <div id="resultadoIMC"></div>
     <div id="extra">
       
-     <p>Consider the table below to regulate your weight healthily.</p>
+     <h1>Consider the table below to regulate your weight healthily.</h1>
       <pre>
 ***************************************************************
 |    BMI            |          CATEGORY                       |
@@ -119,12 +119,14 @@ button {
 | Over 40     |  Extreme or high risk of obesity              |
 ***************************************************************
       </pre>
-  <p>Empiricism - based on own experience.</p>
+  <h1>Empiricism - based on own experience.</h1>
+  <script>
   <p>Carbohydrates generate more hunger sensation and consequently we end up eating more.</p>
   <p>In the morning give preference for fruits.</p>
   <p>At lunch give preference to meats and salads.</p>
   <p>At dinner also give preference for meats and salads.</p>
   <p>Other nutrients should be inserted into the diet weightily depending on their maintenance or weight loss.</p>
   <p>Carbohydrates should be reduced depending on their maintenance or weight loss. Eat carbohydrates preferably in the morning, prioritizing wholemeal product.</p></div>
+    </script>
     </body>
 </html>
