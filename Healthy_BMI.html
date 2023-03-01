@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>BMI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+      function calcularIMC() {
+        var altura = document.getElementById("altura").value;
+        var peso   = document.getElementById("peso").value;
+        altura /= 100;
+        var imc = (peso / (altura * altura)).toFixed(2);
+        document.getElementById("resultadoIMC").innerHTML = "BMI: <strong>" + imc + "</strong>";
+      }
+    </script>
+    </head>
+    <style>  
+body {  
+ text-align: center;  
+ background-image: linear-gradient(to right, rgba(255,5,4,0), rgba(255,0,0,1));  
+ }  
+ table  
+ {  
+ text-align: center;  
+ }  
+ h2 {  
+ font-style: italic;   
+ font-family: "Playfair Display", "Bookman", serif;  
+ color: #999;  
+ letter-spacing:- 0.005em;   
+word-spacing: 1px;  
+ font-size: 2.75em;  
+  font-weight: bold;  
+  }  
+  h4 {  
+ font-style: italic;   
+ font-family: "Playfair Display", "Bookman", serif;  
+ color: black;   
+ letter-spacing:- 0.005em;   
+word-spacing: 1px;  
+ font-size: 1em;  
+  font-weight: bold;  
+  }  
+ h1 {  
+  position: relative;  
+  padding: 0;  
+  margin: 0;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 40px;  
+  color: #080808;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;  
+  text-align: center;  
+}  
+.three h1 {  
+  font-size: 28px;  
+  font-weight: 500;  
+  letter-spacing: 0;  
+  line-height: 1.5em;  
+  padding-bottom: 15px;  
+  position: relative;  
+  text-align: center;  
+}  
+.three h1:before {  
+  content: "";  
+  position: absolute;  
+  left: 10;  
+  bottom: 0;  
+  height: 5px;  
+  width: 550px;  
+  background-color: #111;  
+  text-align: center;  
+}  
+.three h1:after {  
+  content: "";  
+  left: 0;  
+  bottom: 2px;  
+  height: 1px;  
+  width: 85%;  
+  max-width: 255px;  
+  background-color: #333;   
+}  
+button {  
+  background-color: #af614c;  
+  border: none;  
+  color: white;  
+  padding: 15px 32px;  
+  text-align: center;  
+  text-decoration: none;  
+  display: inline-block;  
+  font-size: 16px;  
+  margin: 4px 2px;  
+  cursor: pointer;  
+}  
+</style>
+    <body>
+        <div><h2>Body mass Index</h2>
+    <label for="altura">Height (cm): </label>
+    <input id="altura" type="number" min="100" max="250"><br>
+    <label for="peso">Weight (kg): </label>
+    <input id="peso" type="number" min="0" max="350"><br>
+    <button onclick="calcularIMC()">Calculate BMI</button>
+    <div id="resultadoIMC"></div>
+    <div id="extra">
+      
+     <p>Consider the table below to regulate your weight healthily.</p>
+      <pre>
+***************************************************************
+|    BMI            |          CATEGORY                       |
+|-------------------------------------------------------------|
+| Until 18,5        |  Under weight                           |
+| From  18,5 - 24,9 |  Healthy                                |
+| From  25,0 - 29,9 |  Overweight                             |
+| From  30,0 - 39,9 |  Obese                                  |
+| Over 40     |  Extreme or high risk of obesity              |
+***************************************************************
+      </pre>
+  <p>Empiricism - based on own experience.</p>
+  <p>Carbohydrates generate more hunger sensation and consequently we end up eating more.</p>
+  <p>In the morning give preference for fruits.</p>
+  <p>At lunch give preference to meats and salads.</p>
+  <p>At dinner also give preference for meats and salads.</p>
+  <p>Other nutrients should be inserted into the diet weightily depending on their maintenance or weight loss.</p>
+  <p>Carbohydrates should be reduced depending on their maintenance or weight loss. Eat carbohydrates preferably in the morning, prioritizing wholemeal product.</p></div>
+    </body>
+</html>
