@@ -18,7 +18,7 @@
     </head>
     
     <body>
-        <div><h2>Body mass Index</h2>
+        <div>Body mass Index
     <label for="altura">Height (cm): </label>
     <input id="altura" type="number" min="100" max="250"><br>
     <label for="peso">Weight (kg): </label>
