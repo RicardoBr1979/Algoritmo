@@ -120,13 +120,14 @@ button {
 ***************************************************************
       </pre>
   <h1>Empiricism - based on own experience.</h1>
-  <script>
-  <p>Carbohydrates generate more hunger sensation and consequently we end up eating more.</p>
-  <p>In the morning give preference for fruits.</p>
-  <p>At lunch give preference to meats and salads.</p>
-  <p>At dinner also give preference for meats and salads.</p>
-  <p>Other nutrients should be inserted into the diet weightily depending on their maintenance or weight loss.</p>
-  <p>Carbohydrates should be reduced depending on their maintenance or weight loss. Eat carbohydrates preferably in the morning, prioritizing wholemeal product.</p></div>
-    </script>
+  <pre>
+  Carbohydrates generate more hunger sensation and consequently we end up eating more.
+  In the morning give preference for fruits.
+  At lunch give preference to meats and salads.
+  At dinner also give preference for meats and salads.
+  Other nutrients should be inserted into the diet weightily depending on their maintenance or weight loss.
+  Carbohydrates should be reduced depending on their maintenance or weight loss. Eat carbohydrates preferably in the morning, prioritizing wholemeal product.</div>
+    
+    </pre>
     </body>
 </html>
